@@ -1,0 +1,36 @@
+{
+  "name": "hm-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -p --progress",
+    "build/dev": "./node_modules/.bin/webpack -d --progress",
+    "watch": "./node_modules/.bin/webpack -w",
+    "lint": "./node_modules/.bin/eslint src/** && ./node_modules/.bin/prettier -c src/**"
+  },
+  "keywords": [],
+  "author": "himu62",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^4.1.19",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "prettier": {
+    "useTabs": true,
+    "tabWidth": 4
+  }
+}
