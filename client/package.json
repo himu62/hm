@@ -16,9 +16,9 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "styled-components": "^4.3.2",
-    "ts-loader": "^6.1.0",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.6.3",
-    "webpack": "^4.40.2"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "@types/styled-components": "^4.1.19",
@@ -27,7 +27,7 @@
     "eslint": "^6.4.0",
     "eslint-plugin-react": "^7.14.3",
     "prettier": "^1.18.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^5.0.1"
   },
   "prettier": {
     "useTabs": true,
